@@ -12,7 +12,7 @@ import Projects from "./components/Projects";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path={routePath.hero} element={<Hero />} />
           <Route path={routePath.about} element={<About />} />
