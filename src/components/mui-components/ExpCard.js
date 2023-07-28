@@ -38,10 +38,8 @@ const cardData = [
 const ExpCard = () => {
     return(
         <Box>
-            <Typography variant="h3" color={"#00e5ff"} ml={20} mt={5}>
-        Experience
-      </Typography>
-      <Divider color="#858585" light sx={{ width: 1200, marginLeft: 10, marginTop: 5, marginBottom: 5 }}/>
+            <Typography variant="h3" color={"#00e5ff"} mt={5} ml={20}>Experience</Typography>
+            <Divider color="#858585" light sx={{ width: 1200, marginLeft: 10, marginTop: 5, marginBottom: 5 }}/>
             <Grid>
         {cardData.map(card => (
             <Card className={"MuiProjectCard--01"} >
@@ -96,7 +94,7 @@ ExpCard.getTheme = muiBaseTheme => ({
         borderRadius: 16,
         padding: muiBaseTheme.spacing.unit * 3,
         boxShadow: "0 8px 40px -12px rgba(0,0,0,0.3)",
-        marginTop: 35,
+        marginTop: 65,
         backgroundColor: "#858585",
         "&:hover": {
           boxShadow: "0 16px 70px -12.125px rgba(0,229,255,0.8)"

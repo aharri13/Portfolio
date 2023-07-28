@@ -15,7 +15,7 @@ import logo from "../assets/logo.png";
 const Footer = () => {
 
   return (
-    <Box sx={{ marginTop: 25, display: "flex", flexDirection: "column" }}>
+    <Box sx={{ marginTop: 45, display: "flex", flexDirection: "column" }}>
       <Divider color="#858585" sx={{ width: 955, marginLeft: 30 }} />
       <Box sx={{ display: "flex", flexDirection: "row" }}>
         <Avatar
@@ -34,7 +34,7 @@ const Footer = () => {
         sx={{
           color: "white",
           marginTop: 2,
-          marginLeft: 77,
+          marginLeft: 77
         }}
       >
         aharri13@syr.edu

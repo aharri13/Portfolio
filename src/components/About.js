@@ -8,14 +8,7 @@ const muiBaseTheme = createTheme();
 
 const About = () => {
   return(
-    <div 
-        style={{ 
-          backgroundColor: '#121212',
-          backgroundPosition: 'center',
-          backgroundSize: 'cover',
-          height: '100%',
-          width: '100%',
-        }}>
+    <div className="App">
             <MuiThemeProvider
         theme={createTheme({
           typography: {

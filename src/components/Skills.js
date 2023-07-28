@@ -8,16 +8,7 @@ const muiBaseTheme = createTheme();
 
 const Skills = () => {
     return(
-        <div
-      style={{
-        backgroundColor: "#121212",
-        backgroundPosition: "center",
-        backgroundSize: "cover",
-        backgroundRepeat: "no-repeat",
-        minHeight: "100vh",
-        minWidth: "100%",
-      }}
-    >
+        <div className="App">
       <MuiThemeProvider
         theme={createTheme({
           typography: {
