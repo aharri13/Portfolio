@@ -3,3 +3,18 @@
   height: 100vh;
   background-color: #212121;
 }
+
+.content {
+  width: 334px;
+  height: 216px;
+  background: #f0f0f0;
+  border-radius: 3px;
+  overflow-y: auto;
+}
+
+.wrapper {
+  width: 345px;
+  height: 260px;
+  transform: scale(0.40);
+  transform-origin: top left;
+}

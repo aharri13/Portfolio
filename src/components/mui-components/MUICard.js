@@ -5,14 +5,15 @@ import Card from "@material-ui/core/Card";
 import CardMedia from "@material-ui/core/CardMedia";
 import CardContent from "@material-ui/core/CardContent";
 
-
 import profile from '../../assets/gradpic.jpg';
 import { Box, Divider, Typography } from "@mui/material";
+
+
 
 const MUICard = () => {
   return(
     <Box>
-      <Typography variant="h3" color={"#00e5ff"} ml={20} mt={5}>About</Typography>
+      <Typography variant="h3" color={"#00e5ff"} mt={5} ml={20}>About</Typography>
       <Divider color="#858585" light sx={{ width: 1200, marginLeft: 10, marginTop: 5, marginBottom: 5 }}/>
       <Card className={"MuiReviewCard--01"} sx={{ marginTop: 15, marginBottom: 15 }}>
     <CardMedia

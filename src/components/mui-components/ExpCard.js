@@ -16,14 +16,14 @@ const cardData = [
     company: "Amazon",
     title: "Software Development Engineer I",
     description: 
-    "I worked for the Amazon Alexa Org as a member of the Smart Home Lighting and Appliances team. There I was heavily involved in backend development for features like Away Lighting, Hunches, and Smart Home Speechlet(VUI). This also includes oncall duties, Design reviews for new or updating features, and Document Writing to include COEs. As well as knowledge of AWS services to include EC2, Lambda, and CloudWatch."
+    "I worked for the Amazon Alexa Org as a member of the Smart Home Lighting and Appliances team. There I was heavily involved in backend development for features like Away Lighting, Hunches, and Smart Home Speechlet(VUI). This also includes oncall duties, design reviews for new or updating features, and document writing to include COEs. As well as knowledge of AWS services to include EC2, Lambda, and CloudWatch."
 },
 {
     img: `${virginia_logo}`,
     dates: "Apr 2015 - Apr 2021",
     company: "Virginia National Guard",
     title: "Network Operator/Maintainer",
-    description: "I operate and maintain the nodal network for the US Army along with the setup of communications at the brigade level. This includes for example the setup of VOIP phones, Internet, and Computers. Knowledge of Linux and Cisco Systems and the ability to lead a team of 4 or more soldiers."
+    description: "I maintained and operated on the nodal network for the US Army along with the setup of communications at the brigade level. This includes for example the setup of VOIP phones, Internet, and Computers. Knowledge of Linux and Cisco Systems and the ability to lead a team of 4 or more soldiers."
 },
 {
     img: `${marine_logo}`,

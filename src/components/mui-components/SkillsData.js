@@ -18,11 +18,11 @@ import blender from "../../assets/blender_logo.png";
 },
 {
     img: `${react}`,
-    skill: "React JS"
+    skill: "React.js"
 },
 {
     img: `${three}`,
-    skill: "Three JS"
+    skill: "Three.js"
 },
 {
     img: `${node}`,
